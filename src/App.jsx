@@ -6,6 +6,7 @@ import AboutMe from "./sections/AboutMe";
 import MyProjects from "./sections/MyProjects";
 import ContactMe from "./sections/ContactMe";
 import Footer from "./sections/Footer";
+import { Toaster } from "sonner";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <MyProjects />
       <ContactMe />
       <Footer />
+      <Toaster richColors />
     </div>
   );
 };
