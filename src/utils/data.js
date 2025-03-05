@@ -19,6 +19,7 @@ import PROJECT_IMG_1 from "../assets/Sushiman.png";
 import PROJECT_IMG_2 from "../assets/AlejoDesign.png";
 import PROJECT_IMG_3 from "../assets/Ristorani Turilli.png";
 import PROJECT_IMG_4 from "../assets/MoviesPlanet.png";
+import PROJECT_IMG_5 from "..//assets/MealRecipes.png";
 
 export const MENU_LINKS = [
   { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -192,6 +193,15 @@ export const PROJECTS = [
   },
   {
     id: 3,
+    title: "MealRecipes",
+    image: PROJECT_IMG_5,
+    link: "https://mealreciipess.netlify.app/",
+    description:
+      "The Meals Recipes website offers a wide collection of recipes, organized into categories such as breakfast, main dishes, desserts, and vegetarian and vegan options. Each recipe includes a detailed description, ingredient list, and preparation steps, making it easy for users to reproduce various dishes at home. The site aims to inspire visitors to explore and enjoy a variety of flavors in their daily cooking.",
+    tags: ["React"],
+  },
+  {
+    id: 4,
     title: "MoviesPlanet",
     image: PROJECT_IMG_4,
     link: "https://moviessplanet.vercel.app/",
