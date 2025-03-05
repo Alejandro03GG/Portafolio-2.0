@@ -11,14 +11,11 @@ const MyProjects = () => {
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setcanScrollNext] = useState(false);
 
-  const updateScrollButtons = useCallback(
-    () => {
-      if (!emblaApi) return;
-      setCanScrollPrev(emblaApi.canScrollPrev());
-      setcanScrollNext(emblaApi.canScrollNext());
-    },
-    { emblaApi }
-  );
+  const updateScrollButtons = useCallback(() => {
+    if (!emblaApi) return;
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setcanScrollNext(emblaApi.canScrollNext());
+  }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;
