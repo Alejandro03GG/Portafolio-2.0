@@ -7,6 +7,7 @@ import MyProjects from "./sections/MyProjects";
 import ContactMe from "./sections/ContactMe";
 import Footer from "./sections/Footer";
 import { Toaster } from "sonner";
+import Certificates from "./sections/Certificates";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <TechnicalProficiency />
+      <Certificates />
       <AboutMe />
       <MyProjects />
       <ContactMe />

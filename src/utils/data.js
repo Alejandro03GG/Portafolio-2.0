@@ -24,9 +24,10 @@ import PROJECT_IMG_5 from "..//assets/MealRecipes.png";
 export const MENU_LINKS = [
   { id: "01", label: "Home", offset: -100, to: "hero" },
   { id: "02", label: "Skills", offset: -80, to: "skills" },
-  { id: "03", label: "About me", offset: -80, to: "about" },
-  { id: "04", label: "Projects", offset: -80, to: "projects" },
-  { id: "05", label: "Contact", offset: -80, to: "contact" },
+  { id: "03", label: "Certificates", offset: -80, to: "certificates" },
+  { id: "04", label: "About me", offset: -80, to: "about" },
+  { id: "05", label: "Projects", offset: -80, to: "projects" },
+  { id: "06", label: "Contact", offset: -80, to: "contact" },
 ];
 
 export const SKILL_TABS = [
@@ -125,6 +126,65 @@ export const SKILLS = [
     type: "soft-skills",
     description:
       "I like to work in a team and collaborate with others to achieve common goals. Ability to adapt to different roles within a team and contribute to collective success.",
+  },
+];
+
+export const CERTIFICATES = [
+  {
+    id: "01",
+    title: "Introducción al desarrollo de front-end",
+    link: "https://coursera.org/share/c60b80e1def02643f54507e366d45dcd",
+    platform: "Coursera",
+    description: "Comprehensive introduction to front-end development fundamentals, covering essential concepts in HTML, CSS, and web design principles.",
+  },
+  {
+    id: "02",
+    title: "HTML5: Sin fronteras",
+    link: "https://academia.holamundo.io/certificates/jggorfyr6g",
+    platform: "HolaMundo",
+    description: "Advanced HTML5 course covering semantic markup, modern features, and best practices for creating well-structured web pages.",
+  },
+  {
+    id: "03",
+    title: "CSS3: Sin fronteras",
+    link: "https://academia.holamundo.io/certificates/actfh2talh",
+    platform: "HolaMundo",
+    description: "In-depth CSS3 training focusing on modern styling techniques, responsive design, and advanced layout systems.",
+  },
+  {
+    id: "04",
+    title: "Programación con JavaScript",
+    link: "https://coursera.org/share/dd1566287278362396b3417df23cdf3c",
+    platform: "Coursera",
+    description: "Comprehensive JavaScript course covering core concepts, DOM manipulation, and modern programming practices.",
+  },
+  {
+    id: "05",
+    title: "Ultimate JavaScript",
+    link: "https://academia.holamundo.io/certificates/rze2iuxczz",
+    platform: "HolaMundo",
+    description: "Advanced JavaScript concepts including ES6+ features, asynchronous programming, and application architecture.",
+  },
+  {
+    id: "06",
+    title: "Ultimate React",
+    link: "https://academia.holamundo.io/certificates/1nn3p7khhn",
+    platform: "HolaMundo",
+    description: "Complete React.js course covering components, hooks, state management, and modern React development practices.",
+  },
+  {
+    id: "07",
+    title: "Desarrollar habilidades interpersonales",
+    link: "https://coursera.org/share/7c60be97ec430289548ce0a238621058",
+    platform: "Coursera",
+    description: "Course focused on enhancing communication, collaboration, and interpersonal relationships in professional environments.",
+  },
+  {
+    id: "08",
+    title: "Cómo resolver problemas y tomar decisiones con eficacia",
+    link: "https://coursera.org/share/68bfdfe859ae935aef12d146e7352736",
+    platform: "Coursera",
+    description: "Strategic approach to problem-solving and decision-making processes in professional contexts.",
   },
 ];
 
