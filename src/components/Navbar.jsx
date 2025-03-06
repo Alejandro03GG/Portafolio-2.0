@@ -64,12 +64,8 @@ const Navbar = () => {
             )}
           </svg>
         </button>
-
-        {/* Navigation Links */}
-        <ul
-          className={`
-          ${isOpen ? "flex" : "hidden"} menu-wrapper`}
-        >
+{/* Navigation Links */}
+        <ul className={`${isOpen ? "flex" : "hidden"} menu-wrapper`}>
           {MENU_LINKS.map((item) => (
             <li key={item.id}>
               <Link
@@ -77,8 +73,14 @@ const Navbar = () => {
                 to={item.to}
                 smooth
                 spy
+                duration={1000}
                 offset={item.offset}
                 className="menu-item"
+                onClick={() => {
+                  if (window.innerWidth < 768) {
+                    setIsOpen(false);
+                  }
+                }}
               >
                 {item.label}
               </Link>
