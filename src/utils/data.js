@@ -20,6 +20,7 @@ import PROJECT_IMG_2 from "../assets/AlejoDesign.png";
 import PROJECT_IMG_3 from "../assets/Ristorani Turilli.png";
 import PROJECT_IMG_4 from "../assets/MoviesPlanet.png";
 import PROJECT_IMG_5 from "..//assets/MealRecipes.png";
+import PROJECT_IMG_6 from "../assets/BrainwaveIA.png";
 
 export const MENU_LINKS = [
   { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -135,56 +136,64 @@ export const CERTIFICATES = [
     title: "Introducción al desarrollo de front-end",
     link: "https://coursera.org/share/c60b80e1def02643f54507e366d45dcd",
     platform: "Coursera",
-    description: "Comprehensive introduction to front-end development fundamentals, covering essential concepts in HTML, CSS, and web design principles.",
+    description:
+      "Comprehensive introduction to front-end development fundamentals, covering essential concepts in HTML, CSS, and web design principles.",
   },
   {
     id: "02",
     title: "HTML5: Sin fronteras",
     link: "https://academia.holamundo.io/certificates/jggorfyr6g",
     platform: "HolaMundo",
-    description: "Advanced HTML5 course covering semantic markup, modern features, and best practices for creating well-structured web pages.",
+    description:
+      "Advanced HTML5 course covering semantic markup, modern features, and best practices for creating well-structured web pages.",
   },
   {
     id: "03",
     title: "CSS3: Sin fronteras",
     link: "https://academia.holamundo.io/certificates/actfh2talh",
     platform: "HolaMundo",
-    description: "In-depth CSS3 training focusing on modern styling techniques, responsive design, and advanced layout systems.",
+    description:
+      "In-depth CSS3 training focusing on modern styling techniques, responsive design, and advanced layout systems.",
   },
   {
     id: "04",
     title: "Programación con JavaScript",
     link: "https://coursera.org/share/dd1566287278362396b3417df23cdf3c",
     platform: "Coursera",
-    description: "Comprehensive JavaScript course covering core concepts, DOM manipulation, and modern programming practices.",
+    description:
+      "Comprehensive JavaScript course covering core concepts, DOM manipulation, and modern programming practices.",
   },
   {
     id: "05",
     title: "Ultimate JavaScript",
     link: "https://academia.holamundo.io/certificates/rze2iuxczz",
     platform: "HolaMundo",
-    description: "Advanced JavaScript concepts including ES6+ features, asynchronous programming, and application architecture.",
+    description:
+      "Advanced JavaScript concepts including ES6+ features, asynchronous programming, and application architecture.",
   },
   {
     id: "06",
     title: "Ultimate React",
     link: "https://academia.holamundo.io/certificates/1nn3p7khhn",
     platform: "HolaMundo",
-    description: "Complete React.js course covering components, hooks, state management, and modern React development practices.",
+    description:
+      "Complete React.js course covering components, hooks, state management, and modern React development practices.",
   },
   {
     id: "07",
     title: "Desarrollar habilidades interpersonales",
     link: "https://coursera.org/share/7c60be97ec430289548ce0a238621058",
     platform: "Coursera",
-    description: "Course focused on enhancing communication, collaboration, and interpersonal relationships in professional environments.",
+    description:
+      "Course focused on enhancing communication, collaboration, and interpersonal relationships in professional environments.",
   },
   {
     id: "08",
     title: "Cómo resolver problemas y tomar decisiones con eficacia",
     link: "https://coursera.org/share/68bfdfe859ae935aef12d146e7352736",
     platform: "Coursera",
-    description: "Strategic approach to problem-solving and decision-making processes in professional contexts.",
+    description:
+      "Strategic approach to problem-solving and decision-making processes in professional contexts.",
   },
 ];
 
@@ -225,48 +234,45 @@ export const ABOUT_ME = {
 
 export const PROJECTS = [
   {
-    id: 1,
-    title: "Sushiman",
-    image: PROJECT_IMG_1,
-    link: "https://sushiweb-psi.vercel.app/",
-    description:
-      "Sushiman is a website dedicated to offering the authentic experience of Japanese cuisine. Its mission is to bring the true flavors of Japan to customers, emphasizing the concept of “Omotenashi,” which represents Japanese hospitality. The site features a variety of popular dishes, including different types of sushi, ramen, udon, and danggo, each with descriptions and prices. Additionally, it highlights Japanese culinary trends and offers the option to subscribe to a newsletter to receive offers directly to their email. Users can explore the menu and learn more about the company’s philosophy.",
-    tags: ["HTML", "CSS"],
+    id: 6,
+    title: "MoviesPlanet",
+    image: PROJECT_IMG_4,
+    link: "https://moviessplanet.vercel.app/",
+    tags: ["React", "AppWrite", "Tailwind CSS"],
+  },
+  {
+    id: 5,
+    title: "BrainwaveIA",
+    image: PROJECT_IMG_6,
+    link: "https://moviessplanet.vercel.app/",
+    tags: ["React", "Tailwind CSS"],
+  },
+  {
+    id: 4,
+    title: "MealRecipes",
+    image: PROJECT_IMG_5,
+    link: "https://mealreciipess.netlify.app/",
+    tags: ["React"],
+  },
+  {
+    id: 3,
+    title: "Ristorani Turilli",
+    image: PROJECT_IMG_3,
+    link: "https://ristoranteturillli.netlify.app/",
+    tags: ["HTML", "CSS", "JS"],
   },
   {
     id: 2,
     title: "AlejoDesign",
     image: PROJECT_IMG_2,
     link: "https://alejodesign.netlify.app/",
-    description:
-      "AlejoDesign specializes in turning clients' ideas into tangible realities. They offer web design services, highlighting their expertise in areas such as analytics, SEO, and security. The portfolio shows a gallery of previous projects, evidencing the quality and diversity of their work. The company presents itself as 'AlejoDesign', emphasizing its commitment to making its clients' dreams come true",
     tags: ["HTML", "CSS", "JS"],
   },
   {
-    id: 2,
-    title: "Ristorani Turilli",
-    image: PROJECT_IMG_3,
-    link: "https://ristoranteturillli.netlify.app/",
-    description:
-      "Ristorante Turilli is a website featuring a fictional Italian restaurant. The homepage welcomes visitors and provides a brief description of the restaurant. The menu includes a variety of Italian dishes, such as salads, pastas, pizzas, and desserts, each with a brief description and price. The executive chef is also highlighted with a quote about culinary excellence and a brief biography. The contact section provides the address in Rome, Italy, an email and phone number, along with a form for visitors to send messages. Additionally, users are invited to subscribe to receive more news.",
-    tags: ["HTML", "CSS", "JS"],
-  },
-  {
-    id: 3,
-    title: "MealRecipes",
-    image: PROJECT_IMG_5,
-    link: "https://mealreciipess.netlify.app/",
-    description:
-      "The Meals Recipes website offers a wide collection of recipes, organized into categories such as breakfast, main dishes, desserts, and vegetarian and vegan options. Each recipe includes a detailed description, ingredient list, and preparation steps, making it easy for users to reproduce various dishes at home. The site aims to inspire visitors to explore and enjoy a variety of flavors in their daily cooking.",
-    tags: ["React"],
-  },
-  {
-    id: 4,
-    title: "MoviesPlanet",
-    image: PROJECT_IMG_4,
-    link: "https://moviessplanet.vercel.app/",
-    description:
-      "Movies Planet is a platform dedicated to movie lovers, offering a wide range of movies to explore. Users can browse and discover movies from various genres, check details such as searching for synopsis, cast and ratings, and stay updated on the latest releases and movie trends. The interface is designed to make navigation easier and enhance the user experience when interacting with movie content.",
-    tags: ["React", "AppWrite", "Tailwind CSS"],
+    id: 1,
+    title: "Sushiman",
+    image: PROJECT_IMG_1,
+    link: "https://sushiweb-psi.vercel.app/",
+    tags: ["HTML", "CSS"],
   },
 ];
