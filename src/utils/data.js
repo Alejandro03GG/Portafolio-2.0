@@ -244,7 +244,7 @@ export const PROJECTS = [
     id: 5,
     title: "BrainwaveIA",
     image: PROJECT_IMG_6,
-    link: "https://moviessplanet.vercel.app/",
+    link: "https://brainwaveia.vercel.app/",
     tags: ["React", "Tailwind CSS"],
   },
   {
