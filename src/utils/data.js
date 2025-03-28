@@ -21,6 +21,7 @@ import PROJECT_IMG_3 from "../assets/Ristorani Turilli.png";
 import PROJECT_IMG_4 from "../assets/MoviesPlanet.png";
 import PROJECT_IMG_5 from "..//assets/MealRecipes.png";
 import PROJECT_IMG_6 from "../assets/BrainwaveIA.png";
+import PROJECT_IMG_7 from "../assets/AleGaming.png";
 
 export const MENU_LINKS = [
   { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -233,6 +234,13 @@ export const ABOUT_ME = {
 };
 
 export const PROJECTS = [
+  {
+    id: 7,
+    title: "AleGaming",
+    image: PROJECT_IMG_7,
+    link: "https://alegaming.vercel.app/",
+    tags: ["React", "Tailwind CSS", "GSAP"],
+  },
   {
     id: 6,
     title: "MoviesPlanet",
